@@ -91,7 +91,3 @@ This will redirect to the original URL stored in the database.
 * Track number of clicks
 * Add expiration time for links
 * Improve short code generation logic
-
----
-
-If you want next, I can help you make your **GitHub repo look very professional for submission (title, description, pinned format, etc.)**
