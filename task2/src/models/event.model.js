@@ -16,6 +16,10 @@ const eventSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  currentCapacity:{
+    type:Number,
+    default:0,
+  },
   date: {
     type: Date,
     required: true,
