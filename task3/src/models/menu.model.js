@@ -5,10 +5,13 @@ const menuSchema = new mongoose.Schema({
     type: String,
     required: true,
     unique: true,
+    trim: true,
+    lowercase: true,
   },
   description: {
     type: String,
     required: true,
+    trim: true,
   },
   price: {
     type: Number,
@@ -19,10 +22,14 @@ const menuSchema = new mongoose.Schema({
     type: String,
     enum: ["vegetarian", "non-vegetarian", "vegan"],
     required: true,
-  },    
+    trim: true,
+    lowercase: true,
+  },
   category: {
     type: String,
     required: true,
+    trim: true,
+    lowercase: true,
   },
 });
 
